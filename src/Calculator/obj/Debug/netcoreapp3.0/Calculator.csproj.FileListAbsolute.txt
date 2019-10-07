@@ -1,0 +1,11 @@
+/Users/shawnkim/code/r365-calculator/src/Calculator/bin/Debug/netcoreapp3.0/Calculator
+/Users/shawnkim/code/r365-calculator/src/Calculator/bin/Debug/netcoreapp3.0/Calculator.deps.json
+/Users/shawnkim/code/r365-calculator/src/Calculator/bin/Debug/netcoreapp3.0/Calculator.runtimeconfig.json
+/Users/shawnkim/code/r365-calculator/src/Calculator/bin/Debug/netcoreapp3.0/Calculator.runtimeconfig.dev.json
+/Users/shawnkim/code/r365-calculator/src/Calculator/bin/Debug/netcoreapp3.0/Calculator.dll
+/Users/shawnkim/code/r365-calculator/src/Calculator/bin/Debug/netcoreapp3.0/Calculator.pdb
+/Users/shawnkim/code/r365-calculator/src/Calculator/obj/Debug/netcoreapp3.0/Calculator.csprojAssemblyReference.cache
+/Users/shawnkim/code/r365-calculator/src/Calculator/obj/Debug/netcoreapp3.0/Calculator.AssemblyInfoInputs.cache
+/Users/shawnkim/code/r365-calculator/src/Calculator/obj/Debug/netcoreapp3.0/Calculator.AssemblyInfo.cs
+/Users/shawnkim/code/r365-calculator/src/Calculator/obj/Debug/netcoreapp3.0/Calculator.dll
+/Users/shawnkim/code/r365-calculator/src/Calculator/obj/Debug/netcoreapp3.0/Calculator.pdb
