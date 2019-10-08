@@ -4,6 +4,56 @@
     "/Users/shawnkim/code/r365-calculator/test/Calculator.Tests/Calculator.Tests.csproj": {}
   },
   "projects": {
+    "/Users/shawnkim/code/r365-calculator/src/Calculator/Calculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/shawnkim/code/r365-calculator/src/Calculator/Calculator.csproj",
+        "projectName": "Calculator",
+        "projectPath": "/Users/shawnkim/code/r365-calculator/src/Calculator/Calculator.csproj",
+        "packagesPath": "/Users/shawnkim/.nuget/packages/",
+        "outputPath": "/Users/shawnkim/code/r365-calculator/src/Calculator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/shawnkim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/shawnkim/code/r365-calculator/test/Calculator.Tests/Calculator.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -24,7 +74,11 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/shawnkim/code/r365-calculator/src/Calculator/Calculator.csproj": {
+                "projectPath": "/Users/shawnkim/code/r365-calculator/src/Calculator/Calculator.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
