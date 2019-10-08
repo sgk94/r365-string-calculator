@@ -18,11 +18,6 @@ namespace Calculator
 
             for (var i = 0; i < numbers.Count; i++) 
             {
-                if (numbers.Count > 2) 
-                {
-                    throw new ArgumentException("Maximum allowed numbers is 2");
-                }
-
                 int parsedResult;
                 int.TryParse(numbers[i], out parsedResult);
                 Console.WriteLine(parsedResult);
