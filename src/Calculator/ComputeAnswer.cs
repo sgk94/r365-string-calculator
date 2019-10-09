@@ -22,6 +22,10 @@ namespace Calculator
                         value = 0;
                         throw new Exception($"No negative numbers. Denied numbers: {negString}");
                     }
+                    if (value > 1000)
+                    {
+                        value = 0;
+                    }
                 }
                 catch(Exception ex)
                 {

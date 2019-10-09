@@ -29,7 +29,7 @@ namespace Calculator.Tests
             var testInput = userInput.FormatInput(input);
             var result = compute.ComputeResult(testInput);
             // assert
-            Assert.Equal(5001, result);
+            Assert.Equal(1, result);
         }
         [Fact]
         public void TestReturn1()
