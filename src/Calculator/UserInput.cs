@@ -8,7 +8,8 @@ namespace Calculator
     {
         public string[] FormatInput(string input)
         {
-            var formatted = input.Split(",");
+            var newInput = input.Replace("\\n", ",");
+            var formatted = newInput.Split(',');
             return formatted;
         }
     }

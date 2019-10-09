@@ -3,20 +3,20 @@ using Xunit;
 
 namespace Calculator.Tests
 {
-    public class StepTwoTest
+    public class StepThreeTest
     {
         [Fact]
-        public void TestRemoveMaxConstraintForNums()
+        public void TestNewlineCharacterDelimiter()
         {
             // arrange
-            var input = "1,2,3,4,5,6,7,8,9,10,11,12";
+            var input = "1\\n2,3";
             var userInput = new UserInput();
             var compute = new ComputeAnswer();
             // act
             var testInput = userInput.FormatInput(input);
             var result = compute.ComputeResult(testInput);
             // assert
-            Assert.Equal(78, result);
+            Assert.Equal(6, result);
         }
     }
 }

@@ -11,6 +11,7 @@ namespace Calculator
             {
                 int value;
                 int.TryParse(input[i], out value);
+                Console.WriteLine($"value: {value}");
                 result += value;
             }
             return result;

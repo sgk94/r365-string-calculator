@@ -16,7 +16,7 @@ namespace Calculator.Tests
             var testInput = userInput.FormatInput(input);
             var result = compute.ComputeResult(testInput);
             // assert
-            AssemblyLoadEventArgs.Equals(20, result);
+            Assert.Equal(20, result);
         }
         [Fact]
         public void TestReturn5001()
@@ -29,7 +29,7 @@ namespace Calculator.Tests
             var testInput = userInput.FormatInput(input);
             var result = compute.ComputeResult(testInput);
             // assert
-            AssemblyLoadEventArgs.Equals(5001, result);
+            Assert.Equal(5001, result);
         }
         [Fact]
         public void TestReturn1()
@@ -42,7 +42,7 @@ namespace Calculator.Tests
             var testInput = userInput.FormatInput(input);
             var result = compute.ComputeResult(testInput);
             // assert
-            AssemblyLoadEventArgs.Equals(1, result);
+            Assert.Equal(1, result);
         }
         [Fact]
         public void TestReturnEmptyInputOrMissingNumAs0()
@@ -55,7 +55,7 @@ namespace Calculator.Tests
             var testInput = userInput.FormatInput(input);
             var result = compute.ComputeResult(testInput);
             // assert
-            AssemblyLoadEventArgs.Equals(0, result);
+            Assert.Equal(0, result);
         }
         [Fact]
         public void TestInvalidNumbersConvertedTo0()
@@ -68,7 +68,7 @@ namespace Calculator.Tests
             var testInput = userInput.FormatInput(input);
             var result = compute.ComputeResult(testInput);
             // assert
-            AssemblyLoadEventArgs.Equals(5, result);
+            Assert.Equal(5, result);
         }
     }
 }
