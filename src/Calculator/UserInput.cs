@@ -6,10 +6,11 @@ namespace Calculator
 {
       public class UserInput
     {
-        public string[] FormatInput(string input)
+        public List<string> FormatInput(string input)
         {
             var newInput = input.Replace("\\n", ",");
-            var formatted = newInput.Split(',');
+            var formatted = newInput.Split(',').ToList();
+            
             return formatted;
         }
     }

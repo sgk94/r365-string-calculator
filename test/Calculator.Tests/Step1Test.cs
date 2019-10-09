@@ -3,7 +3,7 @@ using Xunit;
 
 namespace Calculator.Tests
 {
-    public class StepOneTest
+    public class Step1Test
     {
         [Fact]
         public void TestReturn20()
@@ -42,7 +42,7 @@ namespace Calculator.Tests
             var testInput = userInput.FormatInput(input);
             var result = compute.ComputeResult(testInput);
             // assert
-            Assert.Equal(1, result);
+            Assert.Equal(4, result);
         }
         [Fact]
         public void TestReturnEmptyInputOrMissingNumAs0()
